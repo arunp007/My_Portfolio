@@ -1,0 +1,472 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/portfolio_.css' %}">
+    <script src="{% static 'javascript/validation.js' %}"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+        <a class="navbar-brand" href="#"><img src="{% static 'images/logo.jpg' %}" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="container1">
+        <div class="row">
+            <div class="col-xs-6 col-lg-6">
+                <img src="{% static 'images/my_image.png' %}" class="image" id="home">
+            </div>
+
+            <div class="col-xs-6 col-xs-6">
+                <h6 class="text1">HEY! I AM</h6>
+                <h5 class="text2">Arun Pacheeri !</h5>
+                <div class="typewriter">
+                    <h5 class="text3">I'm A Full Stack Developer</h5>
+                </div>
+                <p class="text4">Im A Self Taught Full Stack Developer And Web Developer From Kerala. <br> I'm Passionate In Developing New Project That Strike My Mind. </p>
+                <a href="https://codemaster8848.w3spaces.com/resume.html" class="btn btn-primary">Download</a>
+            </div>
+            
+            <div class="col-xs-3 col-lg-3" id="services"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="container2">
+        <div class="row">
+            <div class="col-xs-12 col-lg-12">
+                <h2 class="heading">My Services</h2>
+                <h3 class="description"> I can make this awesome things</h3>
+            </div>
+
+            <div class="col-xs-1 col-lg-1"></div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="grid">
+                    <img src="{% static 'images/stack.svg' %}" class="icon">
+                    <h4 class="grid-heading">Full Stack Developer</h4>
+                    <p class="grid-description">Python Django Front And Back End Developer</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="grid">
+                    <img src="{% static 'images/web_developer.png' %}" class="icon">
+                    <h4 class="grid-heading">Web Developer</h4>
+                    <p class="grid-description">I Will Build Both Mobile And Desktop Web Apps</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="grid">
+                    <img src="{% static 'images/angular.png' %}" class="icon">
+                    <h4 class="grid-heading">Angular Developer</h4>
+                    <p class="grid-description">I Will Build Angular Web Applications</p>
+                </div>
+            </div>
+
+            <div class="col-xs-1 col-lg-1"></div>
+            
+        </div>
+    </div>
+
+    <div class="container-fluid" id="container3">
+        <div class="row">
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+            <div class="col-xs-6 col-lg-6">
+                <h2 class="main-heading" id="about">About Me</h2>
+                <img src="{% static 'images/underline.png' %}" class="underline">
+                <p class="text5">I'm a Full Stack Developer. I have a passion for creating attractive user friendly web applications. I always create new projects that strike my mind and make them into working web application.</p>
+                
+                <div class="info">
+                    <label>Name :    Arun P</label><br>
+                    <label>Date Of Birth :    21/11/1996</label><br>
+                    <label>Address :    Pacheeri House Pulvetta P.O Allum Kunnu</label><br>
+                    <label>Zip Code :    676523</label><br>
+                    <label>Email Id :    arunp4624@gmail.com</label><br>
+                    <label>Phone Number :    8848193954</label><br>
+                </div><br>
+
+                <a href="https://codemaster8848.w3spaces.com/resume.html" class="btn btn-primary">Resume</a>
+            </div>
+
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid" id="container4">
+        <div class="row">
+            <div class="col-xs-12 col-lg-12">
+                <h2 class="main-heading2">Resume</h2>
+                <img src="{% static 'images/underline.png' %}" class="underline2">
+                <h3 class="sub-heading">Education</h3>
+            </div>
+            
+            <div class="col-xs-1 col-lg-1"></div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="grid2">
+                    <div class="education">
+                        <img src="{% static 'images/education.png' %}" class="icon2">
+                    </div>
+                    <h5 class="grid-heading2">Bachelor Of Science In Computer Science</h5>
+                    <p class="grid-sub">2015 - 2019</p>
+                    <p class="grid-description2">Calicut University</p>
+                    <p class="grid-description2">Eranad Knowledge City College</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="grid2">
+                    <div class="education">
+                        <img src="{% static 'images/education.png' %}" class="icon2">
+                    </div>
+                    <h5 class="grid-heading2">+2 Computer Science</h5>
+                    <p class="grid-sub">2013 - 2015</p>
+                    <p class="grid-description2">GHSS Tuvvur</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="grid2">
+                    <div class="education">
+                        <img src="{% static 'images/education.png' %}" class="icon2">
+                    </div>
+                    <h5 class="grid-heading2">SSLC</h5>
+                    <p class="grid-sub">2013</p>
+                    <p class="grid-description2">GHSS Karuvarakundu</p>
+                </div>
+            </div>
+            
+            <div class="col-xs-1 col-lg-1"></div>
+
+            <div class="col-xs-12 col-lg-12">
+                <h3 class="sub-heading" style="margin-top: 50px;">Experience</h3>
+            </div>
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="grid2">
+                    <div class="education">
+                        <img src="{% static 'images/work.png' %}" class="icon2">
+                    </div>
+                    <h5 class="grid-heading2">Full Stack Developer Python Django</h5>
+                    <p class="grid-sub">March 2022 - May 2022</p>
+                    <p class="grid-description2">Baabtra Calicut</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="grid2">
+                    <div class="education">
+                        <img src="{% static 'images/work.png' %}" class="icon2">
+                    </div>
+                    <h5 class="grid-heading2">Angular Developer</h5>
+                    <p class="grid-sub">May 2022 - June 2022</p>
+                    <p class="grid-description2">Baabtra Calicut</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+            <div class="col-xs-12 col-lg-12">
+                <h3 class="sub-heading" style="margin-top: 50px;">Skills</h3>
+            </div>
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+            <div class="col-xs-6 col-lg-6">
+                <img src="{% static 'images/python.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+
+                <img src="{% static 'images/html.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+
+                <img src="{% static 'images/css.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+
+                <img src="{% static 'images/js.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                </div>
+
+                <img src="{% static 'images/jquery.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+
+                <img src="{% static 'images/bootstrap.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+
+                <img src="{% static 'images/mysql.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                </div>
+
+                <img src="{% static 'images/postgresql.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                </div>
+
+                <img src="{% static 'images/crud.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+
+                <img src="{% static 'images/git.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+
+                <img src="{% static 'images/github.svg' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+
+                <img src="{% static 'images/heroku.png' %}" class="logo2">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+
+                
+            </div>
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+            <div class="col-xs-12 col-lg-12">
+                <h3 class="sub-heading" style="margin-top: 50px;">Awards</h3>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="grid2">
+                    <div class="education">
+                        <img src="{% static 'images/win.png' %}" class="icon2">
+                    </div>
+                    <h5 class="grid-heading2">Vishu Coding Contest Winner</h5>
+                    <p class="grid-sub">April 2022</p>
+                    <p class="grid-description2">Baabtra Calicut</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-lg-12">
+                <h2 class="main-heading2" id="works">My Projects</h2>
+                <img src="{% static 'images/underline.png' %}" class="underline2">
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <video src="{% static 'video/gshop.mp4'  %}" controls></video>
+                    <div class="card-body">
+                      <h5 class="card-title">G-shop</h5>
+                      <p class="card-text">Gshop is an e-commerce platform for buying day today house hold products that you need for your daily routine even food items also available and medicine.</p>
+                      <a href="https://github.com/arunp007/G-shop" class="btn btn-success">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <video src="{% static 'video/blood.mp4'  %}" controls></video>
+                    <div class="card-body">
+                      <h5 class="card-title">Life Saver</h5>
+                      <p class="card-text">Life Saver is a blood donation system help to receive blood. It provides donors near the recipient and provide details of donors to recipients.</p>
+                      <a href="https://github.com/arunp007/Blood_Donation_System" class="btn btn-success">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <video src="{% static 'video/cm_learning.mp4'  %}" controls></video>
+                    <div class="card-body">
+                      <h5 class="card-title">CM Learning Platform</h5>
+                      <p class="card-text">It's completely free and open source learning platform for beginners. It's one of my dream project actually.</p>
+                      <a href="https://github.com/arunp007/CM-Learning-Platform" class="btn btn-success">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <video src="{% static 'video/quizz.mp4'  %}" controls></video>
+                    <div class="card-body">
+                      <h5 class="card-title">Quizz</h5>
+                      <p class="card-text">QUIZZ is quiz website with quiz topics related HTML CSS JavaScript MySQL and Python. After you complete all it show your score.</p>
+                      <a href="https://github.com/arunp007/Quizz" class="btn btn-success">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <video src="{% static 'video/linktree.mp4'  %}" controls></video>
+                    <div class="card-body">
+                      <h5 class="card-title">Linktree</h5>
+                      <p class="card-text">For showcase all your social media links simply using linktree.</p>
+                      <a href="https://github.com/arunp007/linktree" class="btn btn-success">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <video src="{% static 'video/pattu.mp4'  %}" controls></video>
+                    <div class="card-body">
+                      <h5 class="card-title">Pattu</h5>
+                      <p class="card-text">Music listening and downloading website Pattu.</p>
+                      <a href="https://github.com/arunp007/Pattu-Music-Webapp" class="btn btn-success">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <video src="{% static 'video/movieman.mp4'  %}" controls></video>
+                    <div class="card-body">
+                      <h5 class="card-title">Movie Man</h5>
+                      <p class="card-text">Movie Man is a demo of how to make a movie downloading website.</p>
+                      <a href="https://github.com/arunp007/movieman" class="btn btn-success">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <video src="{% static 'video/vishu.mp4'  %}" controls></video>
+                    <div class="card-body">
+                      <h5 class="card-title">Vishu Coding Contest</h5>
+                      <p class="card-text">A website about vishu and vishu future prediction.</p>
+                      <a href="https://github.com/arunp007/vishu_website" class="btn btn-success">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <video src="{% static 'video/baabtra.mp4'  %}" controls></video>
+                    <div class="card-body">
+                      <h5 class="card-title">Baabtra Website</h5>
+                      <p class="card-text">My first Angular web Page.</p>
+                      <a href="https://github.com/arunp007?tab=repositories" class="btn btn-success">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="container5">
+        <div class="row">
+            <div class="col-xs-12 col-lg-12">
+                <h2 class="main-heading2" id="contact">Contact Me</h2>
+                <img src="{% static 'images/underline.png' %}" class="underline2">  
+                <div class="contact-icon">
+                    <img src="{% static 'images/email.png' %}" class="contact-img"> <h6 class="contact-text">arunp4624@gmail.com</h6>
+                </div>
+                
+                <div class="contact-icon">
+                    <img src="{% static 'images/mobile.png' %}" class="contact-img2"> <h6 class="contact-text">8848193954</h6>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+            <div class="col-xs-6 col-lg-6">
+                <form action="" method="post">
+                    <input class="form-control" type="text" name="" id="name" placeholder="Enter Your Name">
+                    <label id="name_error"></label>
+                    <input class="form-control" type="text" name="" id="email" placeholder="Enter Your Email Id">
+                    <label id="email_error"></label>
+                    <textarea class="form-control" name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <label id="message_error"></label>
+                    <button class="btn btn-danger" type="submit" onclick="return validation()">Send Message Now</button>
+                </form>
+            </div>
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid" id="container6">
+        <div class="row">
+            
+            <div class="col-xs-3 col-lg-3"></div>
+
+            <div class="col-xs-6 col-lg-6" style="text-align: center;">
+                <img src="{% static 'images/logo.jpg' %}" class="footer-logo">
+                <h4 class="footer-head">Follow Me</h4>
+                <a href="https://www.instagram.com/codemaster8848/" class="fa fa-instagram"></a> 
+                <a href="https://github.com/arunp007" class="fa fa-github"></a>
+                <a href="https://codepen.io/arunp007/pens/public" class="fa fa-codepen"></a>
+                <a href="https://www.linkedin.com/in/arun-pacheeri-302480190/" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UCGwulcaGQq5bZAFPHxSwwSg" class="fa fa-youtube"></a>  
+                
+            </div>
+
+            <div class="col-xs-3 col-lg-3"></div>
+
+            <div class="col-xs-12 col-lg-12" style="text-align: center;">
+                <label class="footer-label">Copyright © All right reserved</label> <label class="footer-label">|</label><label class="footer-label">Arun P</label>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
