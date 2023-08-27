@@ -380,3 +380,19 @@
     margin-left: 5px;
     font-size: 15px;
 }
+
+.btn-info{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+}
+
+.footer-link{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white !important;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none !important;
+}
